@@ -19,8 +19,8 @@ public class Puff
             }
             inFile = new File(args[0]);
             outFile = new File(args[1]);
-			OutputStream output = new BufferedOutputStream(Files.newOutputStream(outFile.toPath(), WRITE));
-			BufferedWriter writer = new	BufferedWriter(new OutputStreamWriter(output));
+	    OutputStream output = new BufferedOutputStream(Files.newOutputStream(outFile.toPath(), WRITE));
+            BufferedWriter writer = new	BufferedWriter(new OutputStreamWriter(output));
             ObjectInputStream in = new ObjectInputStream(new FileInputStream(inFile.getPath()));
             padding = (Integer)in.readObject();
             node = (ByteNode)in.readObject();
