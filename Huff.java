@@ -1,3 +1,9 @@
+/**
+*Author: Dillon Evans
+*Program: Huff.java
+*Description: A File Compression Program Utilizing Huffman Encoding
+*/
+
 import java.util.*;
 import java.io.*;
 public class Huff
