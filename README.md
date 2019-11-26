@@ -1,5 +1,6 @@
 # Huffman
  A Lossless Compression Program Utilizing Huffman Trees
+
 For Compressing:
 Java Huff in.txt in.huff
 
